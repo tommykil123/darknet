@@ -32,6 +32,7 @@ import math
 import random
 import os
 
+print("STARTING THE DARKNET SEEING IF THIS GOESE INTO BUILD")
 def sample(probs):
     s = sum(probs)
     probs = [a/s for a in probs]
